@@ -1,6 +1,6 @@
 import { v2 as cloudinary } from "cloudinary"
 import { error } from "console"
-cloudinary.v2.uploader.upload
+// cloudinary.v2.uploader.upload
 import fs from "fs/promises"
 
 cloudinary.config({
