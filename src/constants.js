@@ -1,1 +1,1 @@
-export const DB_Name = 'Sarvesh'
+export const DB_Name = 'PlaySync-Backend'

@@ -1,7 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 import mongooseAggregrate from "mongoose-aggregate-paginate-v2"
 const videoSchema = new Schema({
-    videfile: {
+    videofile: {
         type: String,
         required: true,
     },
@@ -29,7 +29,7 @@ const videoSchema = new Schema({
         type: Boolean,
         default: true
     },
-    user: {
+    owner: {
         type: Schema.Types.ObjectId,
         ref : "User"
     }
